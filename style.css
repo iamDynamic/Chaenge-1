@@ -1,0 +1,39 @@
+*{
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+}
+nav{
+          display: grid;
+          justify-content: center;
+          background-color: #24292e;
+          align-items: center;
+          padding: 50px;
+}
+nav h1{
+          color: #fff;
+          text-align: center;
+          text-transform: capitalize;
+}
+article{
+          text-align: center;
+}
+article h1{
+          margin-top: 50px;
+          text-transform: capitalize;
+}
+article .ImageContainer img{
+          margin-top: 80px;
+}
+article .inputs{
+          margin-top: 20px;
+}
+article .inputs .text::placeholder{
+          text-align: center;
+}
+.erore{
+          text-align: center;
+          text-transform: capitalize;
+          color: #f02;
+          margin-top: 20px;
+}
